@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML | Table</title>
+    <style>
+        body {
+            font-family: "Times New Roman";
+            font-size: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .nama {
+            text-align: center;
+            font-size: 25px;
+        }
+        img {
+            border: 10px solid #ddd;
+            border-radius: 10px;
+            padding: 5px;
+            width: 150px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        img:hover {
+            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        }
+        td {
+            padding: 10px;
+        }
+
+        li {
+            margin-left: 50px;
+        }
+
+        p {
+            text-align: justify;
+        }
+        /*table {*/
+        /*    !*jika posisi pengen tidak di tengah maka tinggal css ini kasih komentar saja*!*/
+        /*    margin-left: auto;*/
+        /*    margin-right: auto;*/
+        /*}*/
+    </style>
+</head>
+<body>
+<!--Header awal-->
+<h1>Curiculum Vitae</h1>
+
+<!--Untuk photo disini saya menggunakan jenis thumbanils-->
+<img src="gambar/gambar.jpg" alt="gambar_thumbnails" class="thumbnails">
+
+<!--Nama-->
+<p class="nama">Nama : Ibnu Rusdianto</p>
+
+<!--paragaf-->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, error laborum magni
+    numquam possimus soluta temporibus? Aliquid cumque delectus deleniti illum iusto quos
+    sequi sint soluta tempore voluptate! Alias blanditiis consequuntur debitis earum facilis
+    mollitia reiciendis ullam? Beatae cumque debitis dolore doloremque eaque enim eum ex
+    exercitationem expedita facilis hic illo labore libero magni minima neque, nesciunt nobis
+    nostrum, officia pariatur, rerum tenetur totam! Aliquam asperiores at corporis eaque eligendi
+    exercitationem, fugit incidunt libero maxime molestias, mollitia nobis placeat possimus quasi
+    repellat rerum sed tempora ut vero voluptatem. Atque consequuntur eaque eveniet excepturi fugit laborum
+    magnam porro provident? Aperiam consequuntur cum dicta earum eos excepturi illo ipsum labore maxime, nostrum
+    odio pariatur possimus praesentium quae reprehenderit rerum saepe, sed soluta ullam voluptatem. A beatae corporis,
+    culpa cum dicta eius enim fuga fugiat iste itaque libero magni maiores maxime mollitia nihil, nostrum obcaecati quam quia sed sequi sunt
+    totam unde voluptatum.</p>
+
+<!--Table Of Skill-->
+    <table border="1" cellspacing="0">
+        <tr>
+            <td width="250px" height="75px">Education</td>
+            <!--Untuk width sesuaikan dengan resolusi laptop-->
+            <td width="700px" height="75px">
+                <ul>
+                <li>SDN Patimura</li>
+                <li>SMPN 1 Pusakanagara</li>
+                <li>SMKN 2 Kota Bandung</li>
+                <li>Universitas Pasundan</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td width="250px" height="75px">Sekolah</td>
+            <!--Untuk width sesuaikan dengan resolusi laptop-->
+            <td width="700px" height="75px">
+                <ul>
+                    <li>SDN Patimura</li>
+                    <li>SMPN 1 Pusakanagara</li>
+                    <li>SMKN 2 Kota Bandung</li>
+                    <li>Universitas Pasundan</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
