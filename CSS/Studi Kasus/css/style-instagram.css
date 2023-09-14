@@ -198,6 +198,59 @@ body {
     width: 120px;
 }
 
+.footer-desktop {
+    max-width: 1000px;
+    margin: 100px auto 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-desktop p {
+    font-size: 12px;
+    cursor: pointer;
+    color: #909090;
+    font-weight: lighter;
+}
+
+.footer-desktop p:hover {
+    text-decoration: underline;
+}
+
+
+.footer-2-pc {
+    max-width: 300px;
+    margin: 0 auto 50px;
+    flex-direction: row;
+}
+
+.select-language {
+    display: flex;
+    justify-content: space-between;
+    color: #909090;
+}
+
+#language {
+    font-size: 12px;
+    border-style: none;
+    color: #909090;
+    cursor: pointer;
+}
+
+#language:hover {
+    text-decoration: underline;
+}
+
+.select-language p {
+    font-size: 12px;
+}
+
+.footer-smartphone {
+    display: none;
+}
+
+.footer-2-smartphone {
+    display: none;
+}
 @media screen and (max-width:768px) {
     html {
         max-width: 100%;
@@ -240,5 +293,35 @@ body {
         display: none;
     }
 
+    .footer-desktop {
+        display: none;
+    }
+
+    .footer-smartphone {
+        margin-top: 120px;
+        padding: 30px 30px 10px 30px;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 15px;
+        line-height: 20px;
+        justify-content: space-around;
+    }
+
+    .footer-smartphone p {
+        font-size: 12px;
+        cursor: pointer;
+        color: #909090;
+        font-weight: lighter;
+    }
+
+    .footer-smartphone p:hover {
+        text-decoration: underline;
+    }
+
+    .footer-2-smartphone {
+        max-width: 300px;
+        flex-direction: row;
+    }
 
 }
