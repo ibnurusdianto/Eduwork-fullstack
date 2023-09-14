@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500&display=swap');
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
+.container {
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: #ffffff;
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 10px;*/
+    /*padding: 20px;*/
+    /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);*/
+}
+
+.container .link ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.container .link li {
+    margin-right: 20px;
+}
+
+.container .link li a {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.container .link li a:hover {
+    background-color: #ffcc00;
+}
+
+.container .header .author {
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.container .header .judul {
+    font-size: 80px;
+    position: relative;
+    font-weight: bold;
+}
+
+.container .header .judul .world {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.container .header .sidebar-img {
+    /*float: right;*/
+    /*display: block;*/
+    /*margin-left: auto;*/
+    /*width: 30%;*/
+    /*margin-right: 400px;*/
+    /*padding-top: 120px;*/
+    /*padding-left: 50px;*/
+    width: 30%;
+    float: right;
+    margin-left: auto;
+    margin-right: 270px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    filter: grayscale(20%);
+    transition: filter 0.3s ease;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /*filter: grayscale(20%) blur(1px);*/
+}
+
+@media (max-width: 768px) {
+    .container .header .sidebar-img {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.container .header .sidebar-img:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+
+.container .header .sidebar-img:hover {
+    filter: none;
+}
+
+.container .header .garis {
+    background-color: yellow;
+    height: 2px;
+    width: 10%;
+    margin-top: 90px;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+
