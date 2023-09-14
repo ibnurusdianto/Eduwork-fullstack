@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+body {
+    display: block;
+}
+
+.container {
+    max-width: 1000px;
+    position: relative;
+    top: 20px;
+    margin: 40px auto;
+    display: flex;
+    padding: 10px 20px 10px 130px;
+}
+
+.container-main-img {
+    margin-right: 20px;
+}
+
+.container-principal {
+    margin-top: 65px;
+    margin-bottom: 40px;
+    max-width: 350px;
+    max-height: 570px;
+}
+
+.first-container {
+    border: 1px solid #ddd;
+    height: 73%;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-bottom: 10px;
+    height: 395px;
+}
+
+.logo-img {
+    max-width: 197px;
+    margin: 30px auto 0;
+}
+
+.container-form {
+    max-width: 100%;
+    margin: 15px auto 0;
+    padding: 0 50px;
+}
+
+.container-form input[type="text"],
+.container-form input[type="password"] {
+    border: 1px solid #ddd;
+    width: 250px;
+    margin-bottom: 5px;
+    height: 30px;
+    background-color: #dddddd40;
+    padding: 3px 0 0 6px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.container-form input[type="text"]:focus,
+.container-form input[type="password"]:focus {
+    outline: 0;
+    border: 0.5px solid #b1b1b1;
+}
+
+.container-form input[type="submit"] {
+    width: 258px;
+    border: none;
+    padding: 8px;
+    border-radius: 7px;
+    color: #fff;
+    background-color: rgba(0, 148, 246, 0.712);
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.container-form input[type="submit"]:hover {
+    background-color: rgba(0, 148, 246, 0.9)
+}
+
+.line-separator {
+    margin: 20px auto 0;
+    display: flex;
+}
+
+.text-line {
+    font-size: 12px;
+    font-style: inherit;
+    color: (115, 115, 115);
+}
+
+.line-1,
+.line-2 {
+    border-bottom: 1px solid #dddddd;
+    width: 100px;
+    height: 50%;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.line-2 {
+    margin: 0 0 0 10px;
+}
+
+.login-fb {
+    margin: 25px auto 0;
+    display: flex;
+}
+
+.text-fb {
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+}
+
+.text-fb a {
+    text-decoration: none;
+    color: #385185;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text-fb a:hover {
+    color: #34559a;
+}
+
+.forget-password {
+    margin: 25px auto 0;
+}
+
+.forget-password a {
+    font-size: 12px;
+    font-style: inherit;
+    font-weight: 400;
+    text-decoration: none;
+    color: #122334;
+}
+
+.forget-password a:hover {
+    color: #0e2f4f;
+}
+
+.second-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 3px;
+    width: 344px;
+}
+
+.register-link{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(34, 103, 242)
+}
+
+.third-container{
+    display: flex;
+    flex-direction: column;
+    width: 344px;
+}
+
+.text-third-container {
+    color: blue;
+    text-align: center;
+    margin: 7px auto 18px;
+    font-size: 14px;
+    color: #000;
+}
+
+.img-apps {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+.img-google-play img,
+.img-microsoft img {
+    max-height: 40px;
+    cursor: pointer;
+}
+
+.img-google-play img {
+    height: 40px;
+}
+
+.img-microsoft img {
+    width: 120px;
+}
+
+@media screen and (max-width:768px) {
+    html {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .container-main-img {
+        display: none;
+    }
+
+    main {
+        position: relative;
+        top: -80px;
+    }
+
+    .container {
+        margin: 10px 0px 0px -5px;
+        padding: 40px;
+        padding-bottom: 5px;
+    }
+
+    .logo-img {
+        margin-bottom: 20px;
+    }
+
+    .first-container,
+    .second-container {
+        border: none;
+    }
+
+    .login-fb {
+        background-color: rgba(234, 234, 234, 0.712);
+        border-radius: 10px;
+        margin-left: 61px;
+        padding: 5px 5px 5px 20px;
+        width: 210px;
+    }
+
+    .third-container {
+        display: none;
+    }
+
+
+}
