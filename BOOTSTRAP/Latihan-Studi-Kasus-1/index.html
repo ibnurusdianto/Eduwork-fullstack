@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contact Us Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: aqua;
+        }
+        .card {
+            margin: auto;
+            margin-top: 100px;
+            max-width: 500px;
+            padding: 20px;
+            text-align: center;
+        }
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: left;
+        }
+        .form-group {
+            text-align: left;
+        }
+        .btn-center {
+            text-align: center;
+        }
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+        }
+        .form-row .form-group {
+            width: 48%;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <h5 class="card-title">Contact Us</h5>
+        <form>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="firstName" placeholder="Frist name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Email address">
+            </div>
+            <div class="form-group">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="termsCheck">
+                    <label class="custom-control-label" for="termsCheck">I agree to the Terms and Conditions of this website.</label>
+                </div>
+            </div>
+            <div class="btn-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
