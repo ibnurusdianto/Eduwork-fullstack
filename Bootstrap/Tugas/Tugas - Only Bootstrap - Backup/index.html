@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Tugas | Copy Version OR Backup</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-cP7EiibNhjAS2IkeP7XN2xJFwP32tLeAUHt3Zid6ZLzG5GmANkqcwA9g9zIhEqJm" crossorigin="anonymous">
+</head>
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="img/favicon.png" alt="favicon" width="150px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown fw-bold">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Kelas
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark fw-bold">
+                        <li><a class="dropdown-item" href="#">Private Mentoring</a></li>
+                        <li><a class="dropdown-item" href="#">Bootcamp</a></li>
+                        <li><a class="dropdown-item" href="#">Webminar</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">Hubungi Admin</a>
+                </li>
+            </ul>
+            <button type="button" class="btn btn-primary mx-2">Login</button>
+            <button type="button" class="btn btn-primary">Register</button>
+        </div>
+    </div>
+</nav>
+<!--End Navbar-->
+
+<!-- Hero Section -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="fw-bold">Pelatihan & Penyaluran Kerja</h1>
+            <div class="mt-4">
+                <h2>1. Daftar, Get Free Class!</h2>
+                <p>Join komunitas belajar, dapatkan akses kelas & materi gratis</p>
+            </div>
+            <div class="mt-4">
+                <h2>2. Belajar Intensif</h2>
+                <p>Belajar didampingi virtual assistant & mentor expert via grup & 1-on-1 zoom mentoring</p>
+            </div>
+            <div class="mt-4">
+                <h2>3. Penyaluran Kerja Dijamin</h2>
+                <p>Dapatkan pekerjaan dengan gaji s.d 10jt lebih</p>
+            </div>
+            <button type="button" class="btn btn-primary">Daftar Gratis</button>
+            <button type="button" class="btn btn-warning mx-3">Konsultasi Dulu</button>
+        </div>
+        <div class="col-md-6">
+            <img src="img/gambar1.png" alt="Image" class="img-fluid">
+        </div>
+    </div>
+</div>
+<br>
+<!--End Hero Section-->
+
+<!--Filterisasi -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 mx-auto">
+            <div class="card rounded-3">
+                <div class="card-body">
+                    <h5 class="card-title mb-3">Cari menggunakan filter</h5>
+                    <!-- Group Dropdown -->
+                    <div class="d-flex">
+                        <!-- Dropdown Pertama -->
+                        <div class="dropdown me-3">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Type
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Webminar</a></li>
+                                <li><a class="dropdown-item" href="#">Mini Bootcamp</a></li>
+                                <li><a class="dropdown-item" href="#">Private</a></li>
+                                <li><a class="dropdown-item" href="#">Free Class</a></li>
+                            </ul>
+                        </div>
+                        <!-- Dropdown Kedua -->
+                        <div class="dropdown me-3">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                Kategori
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                <li><a class="dropdown-item" href="#">Web Developer</a></li>
+                                <li><a class="dropdown-item" href="#">Data Science</a></li>
+                                <li><a class="dropdown-item" href="#">Keuangan</a></li>
+                                <li><a class="dropdown-item" href="#">Mobile Developer</a></li>
+                                <li><a class="dropdown-item" href="#">Others</a></li>
+                            </ul>
+                        </div>
+                        <!-- Dropdown Ketiga -->
+                        <div class="dropdown me-3">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pembayaran (Payments)
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                                <li><a class="dropdown-item" href="#">OVO</a></li>
+                                <li><a class="dropdown-item" href="#">DANA</a></li>
+                                <li><a class="dropdown-item" href="#">Shope</a></li>
+                                <li><a class="dropdown-item" href="#">Regular</a></li>
+                                <li><a class="dropdown-item" href="#">ISA</a></li>
+                            </ul>
+                        </div>
+                        <input class="form-control me-2" type="search" placeholder="Keywords" aria-label="Search" style="width: 100%;">
+                        <button type="button" class="btn btn-warning">
+                            <i class="fas fa-search"></i> Cari
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br>
+<!--End Filterisasi-->
+
+<!--Our Partner-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Our 100+</h3>
+            <h4>Hiring Partner</h4>
+        </div>
+        <div class="col-md-6">
+            <div class="d-flex sidebar-partner">
+                <img src="img/tokopedia.png" class="tokopedia">
+                <img src="img/shopee.png" class="shopee">
+                <img src="img/logo-nu-40177.png" class="logo-nu">
+                <img src="img/netflix-logo-png-2567.png" class="logo-netflix">
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<!--End Our Partner-->
+
+<!--Informasi Keunggulan-->
+<div class="container-fluid bg-primary" style="width: 1900px">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card" style="width: 30rem; margin-left: 270px;">
+                <img src="../Tugas%20-%20Only%20Bootstrap%20-%20Copy/img/gambar1.png" class="card-img-top" alt="Gambar">
+            </div>
+        </div>
+        <div class="col-md-6 text-light">
+            <h1 style="margin-left: -170px">Belum Punya Uang?</h1>
+            <h3 style="margin-left: -170px">tenang dengan Metode ISA kamu bisa belajar tanpa modal (Rp. 0,-)</h3>
+            <p style="margin-left: -170px">
+                Dengan program Income Sharing Agreement, kamu bisa fokus belajar dulu, bayarnya nanti setelah mendapatkan kerja / penghasilan.
+            </p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-3" style="margin-left: -170px">
+                        <div class="card-body">
+                            <h5 class="card-title">Keunggulan Program ISA</h5>
+                            <p class="card-text">
+                                <i class="fa-solid fa-star"></i> Fokus Belajar, tanpa kendala biaya<br>
+                                <i class="fa-solid fa-star"></i> Tanpa bunga / riba<br>
+                                <i class="fa-solid fa-star"></i> Cicilan Dapat menyesuaikan gaji
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Syarat Program ISA</h5>
+                            <p class="card-text">
+                                <i class="fa-solid fa-star"></i> Usia 17-28 Tahun<br>
+                                <i class="fa-solid fa-star"></i> Siap disalurkan bekerja<br>
+                                <i class="fa-solid fa-star"></i> Ada komitmen jaminan
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br><br>
+<!--End Informasi Keunggulan-->
+
+<!--Bimbingan-->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="fw-bold" style="margin-top: 120px">Dibimbing Sampai Bisa!</h1>
+            <div class="mt-4">
+                <p>Walaupun kamu tidak memiliki latar belakang skill digital. Kamu masih bisa belajar karena materi di sesuaikan untuk pemula. Dan akan dibimbing oleh mentor/praktisi.</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="img/free%202.png" alt="Image" class="img-fluid">
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="img/free%203.png" alt="Image" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+            <h1 class="fw-bold" style="margin-top: 120px">Murah, Bisa dicicil!</h1>
+            <div class="mt-4">
+                <p>Bisa mulai dari 1jt, pelunasan bisa dicicil sampai 6 bulan. Dengan gaji sampai dengan 10jt lebih, 1x gaji sudah balik modal untuk menutup total biaya!</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="fw-bold" style="margin-top: 120px">Dibimbing Sampai Bisa!</h1>
+            <div class="mt-4">
+                <p>Walaupun kamu tidak memiliki latar belakang skill digital. Kamu masih bisa belajar karena materi di sesuaikan untuk pemula. Dan akan dibimbing oleh mentor/praktisi.</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="img/free%204.png" alt="Image" class="img-fluid">
+        </div>
+    </div>
+</div>
+<br><br>
+<!--End Bimbingan-->
+
+
+<!-- Benefit -->
+<div class="container mt-5">
+    <div class="row text-center">
+        <div class="col">
+            <h4 class="text-primary" style="margin-left: -1200px">Benefits</h4>
+            <h4 style="font-weight:bold;margin-left: -800px">Dapatkan berbagai manfaat dan fasilitas<br>yang ada di komunitas belajar eduwork.</h4>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <ul class="list-unstyled">
+                <li><i class="fas fa-check-circle" style="color: #255ab6;"></i> 1000+ hiring partner</li>
+                <li><i class="fas fa-check-circle" style="color: #255ab6;"></i> Expert Tutor</li>
+                <li><i class="fas fa-check-circle" style="color: #255ab6;"></i> Portfolio real project</li>
+                <li><i class="fas fa-check-circle" style="color: #255ab6;"></i> Live mentoring</li>
+                <li><i class="fas fa-check-circle" style="color: #255ab6;"></i> Live class zoom</li>
+                <li><i class="fas fa-check-circle" style="color: #255ab6;"></i> Pendampingan diawal kerja</li>
+                <li><i class="fas fa-check-circle" style="color: #255ab6;"></i> Cicilan setelah bekerja</li>
+                <li><i class="fas fa-check-circle" style="color: #255ab6;"></i> Tutorial video</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <ul class="list-unstyled" style="margin-left: -90px">
+                <li><i class="fas fa-check-circle" style="color: #255ab6;"></i> Profesional Networking</li>
+                <li><i class="fas fa-check-circle" style="color: #255ab6;"></i> Grup diskusi WhatsApp</li>
+                <li><i class="fas fa-check-circle" style="color: #255ab6;"></i> Praktek real project</li>
+                <li><i class="fas fa-check-circle" style="color: #255ab6;"></i> Video materi</li>
+                <li><i class="fas fa-check-circle" style="color: #255ab6;"></i> Belajar sampai bisa</li>
+                <li><i class="fas fa-check-circle" style="color: #255ab6;"></i> Dapat dicicil 6-12 kali</li>
+                <li><i class="fas fa-check-circle" style="color: #255ab6;"></i> Disalurkan kerja</li>
+                <li><i class="fas fa-check-circle" style="color: #255ab6;"></i> Sertifikat</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="margin-top: -100px; margin-left: -190px; width: 20rem;">
+                <img src="img/benefit-home.png" class="card-img-top" alt="Gambar">
+            </div>
+        </div>
+    </div>
+</div>
+<br><br>
+<!-- End Benefit -->
+
+<!--Metode Belajar-->
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col">
+            <h1 class="font-weight-bold mt-5">Metode Belajar</h1>
+            <img src="img/komunitas-bg.png" alt="Gambar" class="mt-3">
+        </div>
+    </div>
+    <div class="row image-list mt-3">
+        <div class="col-md-2">
+            <img src="img/zoom-logo-41643.png" alt="Image 1" width="100px" style="margin-left: 600px">
+        </div>
+        <div class="col-md-2">
+            <img src="img/skype-logo-19924.png" alt="Image 2" width="100px" style="margin-left: 400px">
+        </div>
+        <div class="col-md-2">
+            <img src="img/whatsapp-logo-png-2287.png" alt="Image 3" width="100px" style="margin-left: 200px">
+        </div>
+        <div class="col-md-2">
+            <img src="img/logo-windows-13514.png" alt="Image 4" width="100px" style="margin-left: 8px">
+        </div>
+        <div class="col-md-2">
+            <img src="img/linux-22632.png" alt="Image 5" width="100px" style="margin-left: -180px; margin-top: 20px">
+        </div>
+        <div class="col-md-2">
+            <img src="img/starbucks-logo-png-1666.png" alt="Image 6" width="100px" style="margin-left: -359px">
+        </div>
+    </div>
+</div>
+
+<br><br><br>
+<!--End Metode Belajar-->
+
+
+<!--Fasilitas -->
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col">
+            <h1 class="mt-5 fw-bold">Belajar Bersama Komunitas</h1>
+            <p class="justify-text ">Dimana lagi kamu bisa belajar sekaligus networking, ketemu teman teman baru dan di <br> dampingi oleh mentor expert di bidangnya. Kamu bisa belajar dimana saja kapan saja <br> bersama eduwork.</p>
+            <div class="mb-4"></div>
+            <h1 class="fw-bold">Dapatkan Fasilitas Dan Fitur Menarik</h1>
+        </div>
+    </div>
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem; margin-left: 350px">
+                <img src="img/zoom-logo-41644.png" class="card-img-top" alt="Logo 1" style="margin-left: -60px">
+                <div class="card-body">
+                    <h5 class="card-title">Zoom mentoring</h5>
+                    <p class="card-text">Bebas konsultasi dengan mentor secara private 1 on 1</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem; margin-left: 195px">
+                <img src="img/whatsapp-logo-png-2287.png" class="card-img-top" alt="Logo 2" style="width: 160px">
+                <div class="card-body">
+                    <h5 class="card-title">Group WhatsApp</h5>
+                    <p class="card-text">Networking dan diskusi dengan siswa lainnya</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem; margin-left: 50px">
+                <img src="img/viber-19496.png" class="card-img-top" alt="Logo 3" style="width: 153px">
+                <div class="card-body">
+                    <h5 class="card-title">Video Materi</h5>
+                    <p class="card-text">Pelajari materi dimana saja dan kapan saja</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem; margin-left: -95px">
+                <img src="img/starbucks-logo-png-1666.png" class="card-img-top" alt="Logo 4" style="width: 160px">
+                <div class="card-body">
+                    <h5 class="card-title">Tugas Praktek</h5>
+                    <p class="card-text">Pemberian tugas praktek di tiap materi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br><br>
+<!--End Fasilitas-->
+
+<!--Fasilitas -->
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col">
+            <h1 class="mt-5 fw-bold text-primary">Categories</h1>
+            <h1 class="fw-bold">Silahkan pilih katagori kelas sesuai keinginan <br> dan kemampuan finansial kamu</h1>
+        </div>
+    </div>
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem; margin-left: 350px">
+                <img src="img/zoom-logo-41644.png" class="card-img-top" alt="Logo 1" style="margin-left: -60px">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">ISA</h5>
+                    <p class="card-text">Belajar dulu bayar setelah kerja</p>
+                    <a href="#" class="btn btn-primary text-center">Lihat Kelas</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem; margin-left: 195px">
+                <img src="img/whatsapp-logo-png-2287.png" class="card-img-top" alt="Logo 2" style="width: 160px">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Reguler</h5>
+                    <p class="card-text">Diskon 50% bisa dicicil 6 bulan</p>
+                    <a href="#" class="btn btn-primary">Lihat Kelas</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem; margin-left: 50px">
+                <img src="img/viber-19496.png" class="card-img-top" alt="Logo 3" style="width: 153px">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Mini Bootcamp</h5>
+                    <p class="card-text">< Rp 500.000</p>
+                    <a href="#" class="btn btn-primary">Lihat Kelas</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem; margin-left: -95px">
+                <img src="img/starbucks-logo-png-1666.png" class="card-img-top" alt="Logo 4" style="width: 160px">
+                <div class="card-body">
+                    <h5 class="card-title">Gratis</h5>
+                    <p class="card-text">Belajar dasar selama 1 - 2 hari</p>
+                    <a href="#" class="btn btn-primary">Lihat Kelas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br><br>
+<!--End Fasilitas-->
+
+<!--Accourding-->
+<div class="container mt-5">
+    <h1 class="text-primary font-weight-bold text-center">FAQ</h1>
+    <h1 class="text-center">Berikut seputar pertanyaan yang sering ditanyakan oleh siswa</h1>
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="accordion" id="accordionLeft">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <span class="me-2"><i class="fa-brands fa-centercode" style="color: #3e65a8;"></i></span> Panduan Pendaftaran
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionLeft">
+                        <div class="accordion-body">
+                            Cara Mendaftar
+                            <ul>
+                                <li>Silahkan mendaftar melalui website eduwork.id</li>
+                                <li>Lalu pilih kelasnya</li>
+                                <li>Diisi form pendaftarannya</li>
+                                <li>Pilih metode pembayaran</li>
+                                <li>Submit</li>
+                            </ul>
+                            Jika sudah mohon ditunggu dihubungi admin melakukan interview untuk melabjutkan pendaftarannya yaaa!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <span class="me-2"><i class="fa-solid fa-book-skull" style="color: #4166a4;"></i></span> Apakah ada Persyaratan?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionLeft">
+                        <div class="accordion-body">
+                            Tidak ada persyaratan khusus untuk mendaftar di eduwork.id yaa! Yuk langsung daftar sekarang!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            <span class="me-2"><i class="fa-solid fa-landmark" style="color: #4171c3;"></i></span> Apa itu ISA
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionLeft">
+                        <div class="accordion-body">
+                            ISA merupakan program dimana kalian bisa ikut pelatihan dulu, bayarnya nanti kalau kalian sudah memiliki penghasilan. Jadi seperti paylater yaa kak.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                            <span class="me-2"><i class="fa-solid fa-inbox" style="color: #4980df;"></i></span> Proses Seleksinya Pendaftaran
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionLeft">
+                        <div class="accordion-body">
+                            Untuk pendaftaran ISA akan diseleksi berdasarkan jaminan yang di berikan oleh siswa. Untuk Reguler tidak ada seleksi khusus.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="accordion" id="accordionRight">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                            <span class="me-2"><i class="fa-solid fa-inbox" style="color: #4980df;"></i></span>Bagaimana Proses Belajarnya
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionRight">
+                        <div class="accordion-body">
+                            Pembelajaran dilakukan secara online ya kak, belajarnya fleksible, kakak bisa mengatur sendiri akan belajar kapan. Belajar 1 on 1 dengan mentor, sehingga bisa konsultasi (via chat ataupun zoom) kapanpun dengan mentor.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <span class="me-2"><i class="fa-solid fa-layer-group" style="color: #4771b8;"></i></span>Bagaimana Proses Penyaluran
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionRight">
+                        <div class="accordion-body">
+                            Penyaluran kerja dilakukan setelah pelatihannya selesai. Semua yang sudah selesai pelatihan akan disalurkan kerja tanpa persyaratan!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                            <span class="me-2"><i class="fa-solid fa-briefcase" style="color: #5485d9;"></i></span>Bagaimana Setelah Bekerja
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionRight">
+                        <div class="accordion-body">
+                            Setelah bekerja, siswa tetap bisa konsultasi dengan mentor dan akan di dampingi selama 1 tahun.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEight">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                            <span class="me-2"><i class="fa-solid fa-user-tag" style="color: #3c64aa;"></i></span>Apakah bisa untuk siswa/mahasiswa/pekerja?
+                        </button>
+                    </h2>
+                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionRight">
+                        <div class="accordion-body">
+                            Program di eduwork bisa diikuti oleh siapa saja ya! Yuk langsung pilih kelasmu sekarang!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br>
+<!--End Accourding-->
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <img src="img/starbucks-logo-png-1666.png" width="100px">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repellendus sunt praesentium aspernatur iure molestias.</p>
+                    <h3>We Accect</h3>
+                    <div class="card-area">
+                        <i class="fa fa-cc-visa"></i>
+                        <i class="fa fa-credit-card"></i>
+                        <i class="fa fa-cc-mastercard"></i>
+                        <i class="fa fa-cc-paypal"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <h2>Hosting</h2>
+                    <ul>
+                        <li><a href="#">Web Hosting</a></li>
+                        <li><a href="#">Cloud Hosting</a></li>
+                        <li><a href="#">CMS Hosting</a></li>
+                        <li><a href="#">WordPress Hosting</a></li>
+                        <li><a href="#">Email Hosting</a></li>
+                        <li><a href="#">VPS Hosting</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <h2>Domain</h2>
+                    <ul>
+                        <li><a href="#">Web Domain</a></li>
+                        <li><a href="#">Cloud Domain</a></li>
+                        <li><a href="#">CMS Domain</a></li>
+                        <li><a href="#">WordPress Domain</a></li>
+                        <li><a href="#">Email Domain</a></li>
+                        <li><a href="#">VPS Domain</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <h2>Newsletter</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque earum similique fugiat nobis. Facere?</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Enter your Email ..." aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><i class="fa fa-long-arrow-right"></i></span>
+                    </div>
+                    <h2>Follow us on</h2>
+                    <p class="socials">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-dribbble"></i>
+                        <i class="fa fa-pinterest"></i>
+                        <i class="fa fa-twitter"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--end footer-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/c74f57c9d2.js" crossorigin="anonymous"></script>
+</body>
+</html>
