@@ -1,8 +1,9 @@
 <?php
 echo "Masukkan angka number: ";
+// user input function menggunakan readline
 $angka = readline();
 
-// pengecekan jika bukan numeric maka akan error atau exit program
+// pengecekan jika bukan numeric maka akan error atau exit program (ditolak)
 if (!is_numeric($angka)) {
     echo "Masukan bukan angka.";
     exit();

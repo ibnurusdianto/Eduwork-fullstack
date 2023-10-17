@@ -1,5 +1,6 @@
 <?php
 echo "Masukkan tahun: ";
+// user input function menggunakan readline
 $tahun = readline();
 
 /**
