@@ -8,6 +8,8 @@
             text-align: left;
             padding: 10px;
             margin-bottom: 50px;
+            margin-top: -10px;
+            width: 100%;
         }
 
         table {
