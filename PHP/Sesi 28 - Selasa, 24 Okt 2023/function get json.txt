@@ -1,0 +1,4 @@
+$data = file_get_contents("data.json");
+$nilai = json_decode($data, true);
+
+untuk melakukan decode atau mengambil json file yaitu menggunakan function file_get_content (untuk ambil file json), lalu function json decode untuk men-decode atau mengubah json jadi array 

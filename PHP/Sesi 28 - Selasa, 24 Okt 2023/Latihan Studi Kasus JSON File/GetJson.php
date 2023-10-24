@@ -4,21 +4,30 @@
     <title>Daftar Nilai</title>
     <style>
         .navbar {
-            background-color: yellow;
+            background-color: orange;
             text-align: left;
             padding: 10px;
+            margin-bottom: 50px;
         }
         table {
             border-collapse: collapse;
-            width: 100%;
+            width: 80%;
+            margin: auto;
         }
         th, td {
             text-align: left;
             padding: 8px;
-            border-bottom: 1px solid #ddd;
         }
         th {
             background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #FFFFFF;
+
+        }
+        tr:nth-child(odd) {
+            background-color: #CCCCCC;
+
         }
     </style>
 </head>
@@ -26,7 +35,7 @@
 <div class="navbar">
     <h1>Daftar Nilai</h1>
 </div>
-<table>
+<table border="1">
     <thead>
     <tr>
         <th>Nama</th>

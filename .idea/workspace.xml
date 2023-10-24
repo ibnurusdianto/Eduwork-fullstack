@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b145e9ab-7fe2-4582-823e-8b81d2a13ca8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 27 - Jumat, 20 Okt 2023/Praktek Individu/PraktekIndividu2-Part2.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Sesi 27 - Jumat, 20 Okt 2023/Praktek Individu/PraktekIndividu2-Part2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/Sesi 28 - Selasa, 24 Okt 2023/Latihan Studi Kasus JSON File/GetJson.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Sesi 28 - Selasa, 24 Okt 2023/Latihan Studi Kasus JSON File/GetJson.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,8 @@
       <updated>1697464105577</updated>
       <workItem from="1697464107585" duration="19000" />
       <workItem from="1697714696134" duration="6744000" />
-      <workItem from="1697802574216" duration="2167000" />
+      <workItem from="1697802574216" duration="3623000" />
+      <workItem from="1698135229837" duration="484000" />
     </task>
     <servers />
   </component>
