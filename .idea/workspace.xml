@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b145e9ab-7fe2-4582-823e-8b81d2a13ca8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 28 - Selasa, 24 Okt 2023/Latihan Studi Kasus JSON File/GetJson.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Sesi 28 - Selasa, 24 Okt 2023/Latihan Studi Kasus JSON File/GetJson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/Sesi 29 - Kamis, 26 Okt 2023/Connection Database/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Sesi 29 - Kamis, 26 Okt 2023/Connection Database/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/Sesi 30 - Jumat, 27 Okt 2023/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Sesi 30 - Jumat, 27 Okt 2023/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,28 +42,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="PHP Script.Sesi26.php">
+}</component>
+  <component name="RunManager" selected="JavaScript Debug.index.php">
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Eduwork-fullstack/PHP/Sesi 30 - Jumat, 27 Okt 2023/index.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="LoopingDoWhile.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/Sesi 26 - Kamis, 19 Okt 2023/LoopingDoWhile.php">
       <method v="2" />
     </configuration>
     <configuration name="LoopingForeach.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/Sesi 26 - Kamis, 19 Okt 2023/LoopingForeach.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="LoopingWhile.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/Sesi 26 - Kamis, 19 Okt 2023/LoopingWhile.php">
       <method v="2" />
     </configuration>
     <configuration name="Looping.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/Sesi 26 - Kamis, 19 Okt 2023/LoopingOnLooping/Looping.php">
@@ -73,11 +74,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.php" />
         <item itemvalue="PHP Script.Sesi26.php" />
         <item itemvalue="PHP Script.Looping.php (1)" />
         <item itemvalue="PHP Script.LoopingForeach.php" />
         <item itemvalue="PHP Script.LoopingDoWhile.php" />
-        <item itemvalue="PHP Script.LoopingWhile.php" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +94,8 @@
       <workItem from="1697714696134" duration="6744000" />
       <workItem from="1697802574216" duration="3623000" />
       <workItem from="1698135229837" duration="961000" />
-      <workItem from="1698137656296" duration="8666000" />
+      <workItem from="1698137656296" duration="8721000" />
+      <workItem from="1698320833851" duration="3095000" />
     </task>
     <servers />
   </component>

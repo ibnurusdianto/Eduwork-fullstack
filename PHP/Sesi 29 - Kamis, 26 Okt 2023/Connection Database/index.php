@@ -1,19 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sesi 29</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+            font-size: 1em;
+            min-width: 400px;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+        table thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+            font-weight: bold;
+        }
+        table th,
+        table td {
+            padding: 12px 15px;
+        }
+        table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+        table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+        table tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+        table tbody tr.active-row {
+            font-weight: bold;
+            color: #009879;
+        }
+    </style>
+    <script>
+        function sortTable(n) {
+            var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+            table = document.getElementById("myTable");
+            switching = true;
+            dir = "asc";
+            while (switching) {
+                switching = false;
+                rows = table.rows;
+                for (i = 1; i < (rows.length - 1); i++) {
+                    shouldSwitch = false;
+                    x = rows[i].getElementsByTagName("TD")[n];
+                    y = rows[i + 1].getElementsByTagName("TD")[n];
+                    if (dir == "asc") {
+                        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    } else if (dir == "desc") {
+                        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+                }
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                    switchcount ++;
+                } else {
+                    if (switchcount == 0 && dir == "asc") {
+                        dir = "desc";
+                        switching = true;
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
 <?php
 // panggil konfigurasi db
 include_once "config/config.php";
 $data_query = mysqli_query($con, "SELECT * FROM siswa");
 ?>
-
 <form action="" method="post">
-    <table border="1" cellpadding="0" cellspacing="0">
+    <table id="myTable">
+        <thead>
         <tr>
-            <th>No</th>
-            <th>Nama</th>
-            <th>Jenis Kelamin</th>
-            <th>Alamat</th>
-            <th>Nomer Telpon</th>
+            <th onclick="sortTable(0)">No</th>
+            <th onclick="sortTable(1)">Nama</th>
+            <th onclick="sortTable(2)">Jenis Kelamin</th>
+            <th onclick="sortTable(3)">Alamat</th>
+            <th onclick="sortTable(4)">Nomer Telpon</th>
             <th>Aksi / Opsi</th>
         </tr>
+        </thead>
+        <tbody>
         <?php if (mysqli_num_rows($data_query)>0) { ?>
             <?php
             $no = 1;
@@ -32,5 +113,8 @@ $data_query = mysqli_query($con, "SELECT * FROM siswa");
                 </tr>
                 <?php $no++; } ?>
         <?php } ?>
+        </tbody>
     </table>
 </form>
+</body>
+</html>
