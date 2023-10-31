@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b145e9ab-7fe2-4582-823e-8b81d2a13ca8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 30 - Jumat, 27 Okt 2023/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Sesi 30 - Jumat, 27 Okt 2023/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +60,8 @@
       <recent name="C:\Users\ibnur\OneDrive\Desktop\Eduwork-fullstack\PHP\Sesi 30 - Jumat, 27 Okt 2023" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.php">
+  <component name="RunManager" selected="PHP Script.index.php">
     <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Eduwork-fullstack/PHP/Sesi 30 - Jumat, 27 Okt 2023/index.php" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="LoopingDoWhile.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/Sesi 26 - Kamis, 19 Okt 2023/LoopingDoWhile.php">
       <method v="2" />
     </configuration>
     <configuration name="LoopingForeach.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/Sesi 26 - Kamis, 19 Okt 2023/LoopingForeach.php">
@@ -77,13 +73,16 @@
     <configuration name="Sesi26.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/Sesi 26 - Kamis, 19 Okt 2023/Sesi26.php">
       <method v="2" />
     </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/Sesi 31 - Selasa, 31 Okt 2023/guru/index.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.index.php" />
         <item itemvalue="JavaScript Debug.index.php" />
         <item itemvalue="PHP Script.Sesi26.php" />
         <item itemvalue="PHP Script.Looping.php (1)" />
         <item itemvalue="PHP Script.LoopingForeach.php" />
-        <item itemvalue="PHP Script.LoopingDoWhile.php" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +101,7 @@
       <workItem from="1698137656296" duration="8721000" />
       <workItem from="1698320833851" duration="4799000" />
       <workItem from="1698415171154" duration="1663000" />
-      <workItem from="1698742719654" duration="650000" />
+      <workItem from="1698742719654" duration="5256000" />
     </task>
     <servers />
   </component>
