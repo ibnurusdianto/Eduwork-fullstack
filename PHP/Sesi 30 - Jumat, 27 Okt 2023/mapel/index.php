@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <title>Sesi 30</title>
     <style>
         table {
@@ -80,18 +80,17 @@
 <body>
 <?php
 // panggil konfigurasi db
-include_once "config/config.php";
-$data_query = mysqli_query($con, "SELECT * FROM siswa");
+include_once "../config/config.php";
+$data_query = mysqli_query($con, "SELECT * FROM mapel");
 ?>
 <form action="" method="post">
     <table id="myTable">
         <thead>
         <tr>
             <th onclick="sortTable(0)">No</th>
-            <th onclick="sortTable(1)">Nama</th>
-            <th onclick="sortTable(2)">Jenis Kelamin</th>
-            <th onclick="sortTable(3)">Alamat</th>
-            <th onclick="sortTable(4)">Nomer Telpon</th>
+            <th onclick="sortTable(1)">Nama Pelajaran</th>
+            <th onclick="sortTable(2)">Nama Guru</th>
+            <th onclick="sortTable(3)">Jadwal Mata Pelajaran</th>
             <th>Aksi / Opsi</th>
         </tr>
         </thead>
@@ -103,10 +102,9 @@ $data_query = mysqli_query($con, "SELECT * FROM siswa");
                 ?>
                 <tr>
                     <td><?php echo $no ?></td>
-                    <td><?php echo $data["nama"];?></td>
-                    <td><?php echo $data["jenis_kelamin"];?></td>
-                    <td><?php echo $data["alamat"];?></td>
-                    <td><?php echo $data["no_telpon"];?></td>
+                    <td><?php echo $data["nama_mapel"];?></td>
+                    <td><?php echo $data["nama_guru"];?></td>
+                    <td><?php echo $data["jadwal_mapel"];?></td>
                     <td>
                         <a href="#">Hapus</a>
                         <a href="#">Edit</a>
@@ -118,11 +116,7 @@ $data_query = mysqli_query($con, "SELECT * FROM siswa");
     </table>
 </form>
 <div class="text-center">
-    <a href="guru/index.php" class="btn btn-primary">Lihat Tabel Guru</a>
+    <a href="../index.php" class="btn btn-primary">Back to Home</a>
 </div><br>
-
-<div class="text-center">
-    <a href="mapel/index.php" class="btn btn-primary">Lihat Tabel Mata Pelajaran</a>
-</div>
 </body>
 </html>

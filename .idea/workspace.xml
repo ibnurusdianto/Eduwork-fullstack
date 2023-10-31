@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b145e9ab-7fe2-4582-823e-8b81d2a13ca8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 29 - Kamis, 26 Okt 2023/Connection Database/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Sesi 29 - Kamis, 26 Okt 2023/Connection Database/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP/Sesi 30 - Jumat, 27 Okt 2023/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Sesi 30 - Jumat, 27 Okt 2023/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +47,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ibnur/OneDrive/Desktop/Eduwork-fullstack/PHP/Sesi 30 - Jumat, 27 Okt 2023&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -56,6 +56,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ibnur\OneDrive\Desktop\Eduwork-fullstack\PHP\Sesi 30 - Jumat, 27 Okt 2023" />
+    </key>
+  </component>
   <component name="RunManager" selected="JavaScript Debug.index.php">
     <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Eduwork-fullstack/PHP/Sesi 30 - Jumat, 27 Okt 2023/index.php" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -95,7 +100,9 @@
       <workItem from="1697802574216" duration="3623000" />
       <workItem from="1698135229837" duration="961000" />
       <workItem from="1698137656296" duration="8721000" />
-      <workItem from="1698320833851" duration="3095000" />
+      <workItem from="1698320833851" duration="4799000" />
+      <workItem from="1698415171154" duration="1663000" />
+      <workItem from="1698742719654" duration="650000" />
     </task>
     <servers />
   </component>
