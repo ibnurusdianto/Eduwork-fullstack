@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <title>Sesi 30</title>
     <style>
         table {
@@ -80,20 +80,21 @@
 <body>
 <?php
 // panggil konfigurasi db
-include_once "../config/config.php";
-$data_query = mysqli_query($con, "SELECT * FROM mapel");
+include_once "config/config.php";
+$data_query = mysqli_query($con, "SELECT * FROM siswa");
 ?>
 <form action="" method="post">
     <table id="myTable">
         <thead>
         <div class="text-center">
-            <a href="../prosess/mapel/insert.php" class="btn btn-success">Insert Data Mapel</a>
+            <a href="prosess/insert.php" class="btn btn-success">Insert Data</a>
         </div>
         <tr>
             <th onclick="sortTable(0)">No</th>
-            <th onclick="sortTable(1)">Nama Pelajaran</th>
-            <th onclick="sortTable(2)">Nama Guru</th>
-            <th onclick="sortTable(3)">Jadwal Mata Pelajaran</th>
+            <th onclick="sortTable(1)">Nama</th>
+            <th onclick="sortTable(2)">Jenis Kelamin</th>
+            <th onclick="sortTable(3)">Alamat</th>
+            <th onclick="sortTable(4)">Nomer Telpon</th>
             <th>Aksi / Opsi</th>
         </tr>
         </thead>
@@ -105,12 +106,13 @@ $data_query = mysqli_query($con, "SELECT * FROM mapel");
                 ?>
                 <tr>
                     <td><?php echo $no ?></td>
-                    <td><?php echo $data["nama_mapel"];?></td>
-                    <td><?php echo $data["nama_guru"];?></td>
-                    <td><?php echo $data["jadwal_mapel"];?></td>
+                    <td><?php echo $data["nama"];?></td>
+                    <td><?php echo $data["jenis_kelamin"];?></td>
+                    <td><?php echo $data["alamat"];?></td>
+                    <td><?php echo $data["no_telpon"];?></td>
                     <td>
-                        <a href="../prosess/mapel/hapus.php?id=<?php echo $data['id']; ?>">Hapus</a>
-                        <a href="../prosess/mapel/edit.php?id=<?php echo $data['id']; ?>">Edit</a>
+                        <a href="prosess/hapus.php?id=<?php echo $data['id']; ?>" onclick="return confirm('Anda yakin akan menghapus data ini?')">Hapus</a>
+                        <a href="prosess/edit.php?id=<?php echo $data['id']; ?>">Edit</a>
                     </td>
                 </tr>
                 <?php $no++; } ?>
@@ -119,7 +121,11 @@ $data_query = mysqli_query($con, "SELECT * FROM mapel");
     </table>
 </form>
 <div class="text-center">
-    <a href="../index.php" class="btn btn-primary">Back to Home</a>
+    <a href="guru/index.php" class="btn btn-primary">Lihat Tabel Guru</a>
 </div><br>
+
+<div class="text-center">
+    <a href="mapel/index.php" class="btn btn-primary">Lihat Tabel Mata Pelajaran</a>
+</div>
 </body>
 </html>

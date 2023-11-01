@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="../css/bootstrap.css">
-    <title>Sesi 30</title>
+    <title>Sesi 30 - Table Guru</title>
     <style>
         table {
             border-collapse: collapse;
@@ -81,19 +81,19 @@
 <?php
 // panggil konfigurasi db
 include_once "../config/config.php";
-$data_query = mysqli_query($con, "SELECT * FROM mapel");
+$data_query = mysqli_query($con, "SELECT * FROM guru");
 ?>
 <form action="" method="post">
     <table id="myTable">
         <thead>
         <div class="text-center">
-            <a href="../prosess/mapel/insert.php" class="btn btn-success">Insert Data Mapel</a>
+            <a href="../prosess/guru/insert.php" class="btn btn-success">Insert Data Guru</a>
         </div>
         <tr>
             <th onclick="sortTable(0)">No</th>
-            <th onclick="sortTable(1)">Nama Pelajaran</th>
-            <th onclick="sortTable(2)">Nama Guru</th>
-            <th onclick="sortTable(3)">Jadwal Mata Pelajaran</th>
+            <th onclick="sortTable(1)">Nama</th>
+            <th onclick="sortTable(2)">Jenis Kelamin</th>
+            <th onclick="sortTable(3)">Mata Pelajaran</th>
             <th>Aksi / Opsi</th>
         </tr>
         </thead>
@@ -105,12 +105,12 @@ $data_query = mysqli_query($con, "SELECT * FROM mapel");
                 ?>
                 <tr>
                     <td><?php echo $no ?></td>
-                    <td><?php echo $data["nama_mapel"];?></td>
-                    <td><?php echo $data["nama_guru"];?></td>
-                    <td><?php echo $data["jadwal_mapel"];?></td>
+                    <td><?php echo $data["nama"];?></td>
+                    <td><?php echo $data["jenis_kelamin"];?></td>
+                    <td><?php echo $data["mata_pelajaran"];?></td>
                     <td>
-                        <a href="../prosess/mapel/hapus.php?id=<?php echo $data['id']; ?>">Hapus</a>
-                        <a href="../prosess/mapel/edit.php?id=<?php echo $data['id']; ?>">Edit</a>
+                        <a href="../prosess/guru/hapus.php?id=<?php echo $data['id']; ?>" onclick="return confirm('Anda yakin ingin menghapus data ini?')">Hapus</a>
+                        <a href="../prosess/guru/edit.php?id=<?php echo $data['id']; ?>">Edit</a>
                     </td>
                 </tr>
                 <?php $no++; } ?>
