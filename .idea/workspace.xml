@@ -6,67 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b145e9ab-7fe2-4582-823e-8b81d2a13ca8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/config/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-grid.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-reboot.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-utilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-utilities.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-utilities.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-utilities.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-utilities.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/css/bootstrap.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/db/siswa.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/guru/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/js/bootstrap.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/js/bootstrap.esm.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/js/bootstrap.esm.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/js/bootstrap.esm.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/mapel/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/prosess/edit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/prosess/guru/edit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/prosess/guru/hapus.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/prosess/guru/insert.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/prosess/hapus.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/prosess/insert.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/prosess/mapel/edit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/prosess/mapel/hapus.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/prosess/mapel/insert.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/prosess/mapel/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Sesi 32 - Kamis, 02 Nov 2023/Latihan/prosess/mapel/style/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,23 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/ibnur/OneDrive/Desktop/Eduwork-fullstack/PHP/Sesi 30 - Jumat, 27 Okt 2023",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ibnur/OneDrive/Desktop/Eduwork-fullstack/PHP/Sesi 30 - Jumat, 27 Okt 2023&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ibnur\OneDrive\Desktop\Eduwork-fullstack\PHP\Sesi 30 - Jumat, 27 Okt 2023" />
@@ -172,6 +111,7 @@
       <workItem from="1698848066468" duration="3878000" />
       <workItem from="1698909380185" duration="128000" />
       <workItem from="1698910595269" duration="492000" />
+      <workItem from="1699014196548" duration="194000" />
     </task>
     <servers />
   </component>
