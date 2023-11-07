@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Menampilkan Fungsi JavaScript</title>
+    <!-- Memasukkan Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <button id="tombolFungsi" class="btn btn-primary mt-5">Tampilkan Fungsi JavaScript</button>
+</div>
+
+<div class="container">
+    <h1 class="text-center mt-5">Contoh Fungsi JavaScript</h1>
+    <div id="hasil" class="text-center mt-5"></div>
+</div>
+
+<!-- Memasukkan jQuery dan Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('#tombolFungsi').click(function() {
+            var fungsiJavaScript = Object.getOwnPropertyNames(window)
+                .filter(item => typeof window[item] === 'function');
+            alert(fungsiJavaScript.join('\n'));
+        });
+    });
+
+    // Mendefinisikan beberapa fungsi dengan parameter
+    function tambah(a, b) {
+        return a + b;
+    }
+
+    function kurang(a, b) {
+        return a - b;
+    }
+
+    function kali(a, b) {
+        return a * b;
+    }
+
+    function bagi(a, b) {
+        if (b != 0) {
+            return a / b;
+        } else {
+            return "Error: Pembagian dengan 0";
+        }
+    }
+
+    // Menampilkan hasil fungsi ke dalam elemen HTML
+    $(document).ready(function() {
+        var a = 10;
+        var b = 2;
+
+        var hasil = "";
+        hasil += "Hasil penjumlahan: " + tambah(a, b) + "<br>";
+        hasil += "Hasil pengurangan: " + kurang(a, b) + "<br>";
+        hasil += "Hasil perkalian: " + kali(a, b) + "<br>";
+        hasil += "Hasil pembagian: " + bagi(a, b);
+
+        $("#hasil").html(hasil);
+    });
+</script>
+</body>
+</html>

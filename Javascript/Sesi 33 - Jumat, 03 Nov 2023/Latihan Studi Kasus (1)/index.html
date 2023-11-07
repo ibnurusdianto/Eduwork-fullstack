@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <title>Latihan Studi Kasus 1</title>
+</head>
+<body>
+<form id="myForm">
+    <input type="text" id="myInput" placeholder="Masukkan teks">
+    <button type="submit" id="myButton" disabled>Submit</button>
+</form>
+
+<script>
+    $(document).ready(function(){
+        // jika mendapatkan inputan dari keyboard dengan menggunakan keyup
+        $('#myInput').on('keyup', function() {
+            // mengambil nilai dengan variable inputVal
+            var inputVal = $(this).val();
+
+            // jika inputVal lebih dari 0 (jika ketika kita mengetik maka disablenya false, atau submit muncul)
+            if(inputVal.length > 0) {
+                $('#myButton').prop('disabled', false);
+            //     jika 0 maka sebaliknya, disablenya true
+            } else {
+                $('#myButton').prop('disabled', true);
+            }
+        });
+    });
+</script>
+</body>
+</html>
